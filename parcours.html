@@ -6,10 +6,15 @@
 <title>Parcours, Jonathan Cognard</title>
 <meta name="description" content="Parcours professionnel, formation et enseignement de Jonathan Cognard.">
 <link rel="stylesheet" href="style.css">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/png" href="favicon-192.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="alternate" hreflang="en" href="en/parcours.html">
 </head>
 <body>
 <div class="wrap">
 
+  <div class="langsw"><a class="on" href="parcours.html">FR</a><span aria-hidden="true">·</span><a href="en/parcours.html" hreflang="en" lang="en">EN</a></div>
   <nav>
     <a href="index.html">Accueil</a>
     <a href="profil.html">Profil</a>
@@ -33,7 +38,7 @@
       <a href="#enseignement">Enseignement</a>
       <a href="#responsabilites-et-engagements">Responsabilités</a>
     </div><script>(function(){var t=document.currentScript.parentNode,ls=[].slice.call(t.querySelectorAll('a'));
-function up(){var ts=ls.map(function(a){return document.getElementById(a.getAttribute('href').slice(1))});var y=window.innerHeight*0.3,k=0,b=-1e9;ts.forEach(function(e,i){if(!e)return;var r=e.getBoundingClientRect().top;if(r<y&&r>b+2){b=r;k=i}});
+function up(){var R=t.closest('.page')||document;var ts=ls.map(function(a){return R.querySelector('[id="'+a.getAttribute('href').slice(1)+'"]')});var y=window.innerHeight*0.3,k=0,b=-1e9;ts.forEach(function(e,i){if(!e)return;var r=e.getBoundingClientRect().top;if(r<y&&r>b+2){b=r;k=i}});
 ls.forEach(function(a,i){a.classList.toggle('act',i===k)})}window.addEventListener('scroll',up,{passive:true});window.addEventListener('load',up);up();})();</script></aside>
   <section id="parcours">
     <h2>Parcours professionnel</h2>
