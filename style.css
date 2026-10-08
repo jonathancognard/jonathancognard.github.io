@@ -1,10 +1,10 @@
 /* Feuille de style commune à toutes les pages du site.
    Pour changer la couleur d'accent : modifier --accent ci-dessous. */
 
-/* ===== Police LM Roman 10 (dossier fonts/) ===== */
-@font-face { font-family:"LM Roman 10"; src:url("fonts/lmroman10-regular.woff2") format("woff2"); font-weight:400; font-style:normal; font-display:swap; }
-@font-face { font-family:"LM Roman 10"; src:url("fonts/lmroman10-italic.woff2") format("woff2"); font-weight:400; font-style:italic; font-display:swap; }
-@font-face { font-family:"LM Roman 10"; src:url("fonts/lmroman10-bold.woff2") format("woff2"); font-weight:700; font-style:normal; font-display:swap; }
+/* ===== Police LM Roman 10 (fichiers lmroman10-*.woff2) ===== */
+@font-face { font-family:"LM Roman 10"; src:url("lmroman10-regular.woff2") format("woff2"); font-weight:400; font-style:normal; font-display:swap; }
+@font-face { font-family:"LM Roman 10"; src:url("lmroman10-italic.woff2") format("woff2"); font-weight:400; font-style:italic; font-display:swap; }
+@font-face { font-family:"LM Roman 10"; src:url("lmroman10-bold.woff2") format("woff2"); font-weight:700; font-style:normal; font-display:swap; }
 
 /* ===== Couleurs ===== */
 :root {
